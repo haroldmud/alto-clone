@@ -8,7 +8,7 @@ export default function Hero(){
   return(
     <section className="bg-blackless">
           <Wrapp>
-      <div className="bg-black lg:w-[53%] lg:pt-10 pt-6 lg:px-10 px-6 pb-2 lg:absolute top-28 left-20 text-xl">
+      <div className="bg-black lg:w-[53%] lg:pt-10 pt-6 lg:px-10 px-6 pb-2 lg:absolute top-28 left-10 text-xl">
           <div className="">
             <h3 className="text-3xl font-semibold">How tech is transforming diagnostics and care</h3>
             <p className="font-semibold my-4">Read three inspiring stories of how Aaltonians are bringing new hope to people who suffer from</p>

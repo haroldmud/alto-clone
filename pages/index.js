@@ -5,7 +5,7 @@ import Wrapp from "@/components/ui/wrapper"
 
 export default function Home() {
   return (
-    <section className="text-white">
+    <section className="text-white text-xl">
       <Header/>
       <Hero/>
       <section className="bg-blackless">
@@ -14,11 +14,32 @@ export default function Home() {
             <h1 className="text-xl">Spotlight</h1>
             <button className="border rounded-xl px-4 lg:block hidden">See all Aalto University news</button>
           </div>
-          <p>Finds more current news and interesting events on the <span className="inline-block underline"><a href="#">News and events page</a></span>.</p>
-          <div>
-            <div className="border">
-
+          <p className="mb-4">Finds more current news and interesting events on the <span className="inline-block underline"><a href="#">News and events page</a></span>.</p>
+          <div className="flex justify-center gap-4">
+          <a href="#">
+            <div className="border  pb-4">
+              <img className="" src="/assets/spotlight1.jpeg" alt="" />
+              <h2 className="text-xl pl-4 mt-2 font-semibold">Shrinking from the heat</h2>
+              <p className="pl-4 my-4">Reactive fabrics respond to changes in temperature</p>
+              <p className="pl-4 mt-2">21.2.23 <span className="inline-block border-l pl-1">News</span></p>
             </div>
+          </a>
+          <a href="#">
+            <div className="border  pb-4">
+              <img className="" src="/assets/spotlight1.jpeg" alt="" />
+              <h2 className="text-xl pl-4 mt-2 font-semibold">Shrinking from the heat</h2>
+              <p className="pl-4 my-4">Reactive fabrics respond to changes in temperature</p>
+              <p className="pl-4 mt-2">21.2.23 <span className="inline-block border-l pl-1">News</span></p>
+            </div>
+          </a>
+          <a href="#">
+            <div className="border  pb-4">
+              <img className="" src="/assets/spotlight1.jpeg" alt="" />
+              <h2 className="text-xl pl-4 mt-2 font-semibold">Shrinking from the heat</h2>
+              <p className="pl-4 my-4">Reactive fabrics respond to changes in temperature</p>
+              <p className="pl-4 mt-2">21.2.23 <span className="inline-block border-l pl-1">News</span></p>
+            </div>
+          </a>
           </div>
         </Wrapp>
       </section>
