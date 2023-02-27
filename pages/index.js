@@ -14,7 +14,7 @@ export default function Home() {
             <h1 className="text-xl">Spotlight</h1>
             <button className="border rounded-xl px-4 lg:block hidden">See all Aalto University news</button>
           </div>
-          <p>Find more current news and interesting events on the <span className="inline-block underline"><a href="#">News and events page</a></span>.</p>
+          <p>Finds more current news and interesting events on the <span className="inline-block underline"><a href="#">News and events page</a></span>.</p>
           <div>
             <div className="border">
 
