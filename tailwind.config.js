@@ -12,6 +12,7 @@ module.exports = {
     extend: {
       colors:{
         'blackless':"#2d2d2d",
+        'blackish':"#252525",
       }
     },
   },
