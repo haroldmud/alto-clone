@@ -8,7 +8,7 @@ export default function Spotlight(){
   return(
     <>
       <section className="bg-blackless pb-20 pt-12">
-        <Wrapp style='lg:w-10/12 w-11/12 mx-auto'>
+        <Wrapp>
           <div className="flex justify-between mb-2">
             <h1 className="font-semibold text-2xl">Spotlight</h1>
             <button className="border rounded-3xl px-4 lg:block hidden hover:bg-blue-700 py-1">See all Aalto University news</button>
@@ -30,7 +30,7 @@ export default function Spotlight(){
         </Wrapp>
       </section>
       <section className="bg-blackish pb-12 pt-12">
-        <Wrapp style='lg:w-10/12 w-11/12 mx-auto'>
+        <Wrapp>
           <div className="flex justify-between mb-2">
             <h1 className="font-semibold text-2xl">Join our many events </h1>
             <button className="border rounded-3xl px-4 lg:block hidden hover:bg-blue-700 py-1">See all Aalto University news</button>
