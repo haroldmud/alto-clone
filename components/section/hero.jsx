@@ -53,15 +53,9 @@ export default function Hero() {
               <div className="text-4xl">
                 <GoPrimitiveDot />
               </div>
-              <div className="my-auto">
-                <GoPrimitiveDot />
-              </div>
-              <div className="my-auto">
-                <GoPrimitiveDot />
-              </div>
-              <div className="my-auto">
-                <GoPrimitiveDot />
-              </div>
+              {
+                ([GoPrimitiveDot,GoPrimitiveDot,GoPrimitiveDot]).map((Item)=><div className="my-auto"><Item/></div>)
+              }
             </div>
             <div className="border rounded-full p-1 h-fit w-fit">
               <BsChevronRight />
