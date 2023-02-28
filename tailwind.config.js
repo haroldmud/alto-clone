@@ -13,6 +13,8 @@ module.exports = {
       colors:{
         'blackless':"#2d2d2d",
         'blackish':"#252525",
+        'blue':"#0058ad",
+        'yellow':"#ffcd00",
       }
     },
   },

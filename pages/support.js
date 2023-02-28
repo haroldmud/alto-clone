@@ -1,4 +1,4 @@
-import Header from "@/components/section/header"
+import Header from "@/components/interface/header"
 
 export default function Support(){
   return(
