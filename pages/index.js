@@ -5,7 +5,7 @@ import Spotlight from "@/components/section/spotlight"
 import Explore from "@/components/section/explore"
 import School from "@/components/section/school"
 import Campus from "@/components/section/campus"
-
+import Visit from "@/components/section/visit"
 
 
 
@@ -21,8 +21,11 @@ export default function Home() {
       <Explore/>
       <School/>
       <Campus/>
+      <Visit/>
       <section className="bg-blackless pb-12 pt-12">
-        
+        <Wrapp>
+          
+        </Wrapp>
       </section>
       <Footer/>
     </section>
